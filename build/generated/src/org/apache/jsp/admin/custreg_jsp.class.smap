@@ -1,0 +1,14 @@
+SMAP
+custreg_jsp.java
+JSP
+*S JSP
+*F
++ 0 custreg.jsp
+admin/custreg.jsp
+*L
+1,48:47
+51,133:98
+183:231
+184:232,3
+185,32:235
+*E

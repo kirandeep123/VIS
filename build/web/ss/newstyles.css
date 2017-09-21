@@ -1,0 +1,276 @@
+/*
+ * File:   newstyles.css 
+ * Modified By : Sarika Bagwe - iDesign Team - 3i-Infotech
+ * Date:   12-March-2007
+ * Desc:   Stylesheet that contains color scheme and layout of the user interface application for 'LIC' 
+ */
+BODY {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 9pt;
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	COLOR: #333333;
+	PADDING-TOP: 0px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none;
+	background-image: url(../images/bg_b.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	background-color: #EDEDED;
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 20px
+}
+SELECT {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: #333333; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 14px
+}
+IMG {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+A {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #cc6600; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.MastheadBg {
+	BACKGROUND-REPEAT: no-repeat;
+	HEIGHT: 60px;
+	background-color: #FFFFFF;
+}
+.WelcomeBg {
+	PADDING-LEFT: 8px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	PADDING-TOP: 0px;
+	FONT-FAMILY: Arial, Verdana, "Times New Roman";
+	HEIGHT: 19px;
+	background-color: #EEDA80;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #DD974A;
+}
+.BreadCrumbBg {
+	PADDING-LEFT: 8px; FONT-WEIGHT: normal; FONT-SIZE: 9px; BACKGROUND-IMAGE: url(../images/BreadCrumbBg.jpg); COLOR: #666666; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: Tahoma, Arial, Verdana; HEIGHT: 20px
+}
+A.BreadCrumb {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #666666; FONT-FAMILY: Tahoma, Arial, Verdana; HEIGHT: 20px
+}
+A.BreadCrumb:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #666666; FONT-FAMILY: Tahoma, Arial, Verdana; HEIGHT: 20px
+}
+.BreadCrumbActive {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: Tahoma, Arial, Verdana; HEIGHT: 20px
+}
+.MenuBg {
+	HEIGHT: 20px;
+	BACKGROUND-COLOR: #21618F;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+}
+.FormTitle {
+	BACKGROUND-POSITION: left center;
+	PADDING-LEFT: 28px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	BACKGROUND-IMAGE: url(../images/FormTitleBg.jpg);
+	COLOR: #cc6600;
+	BACKGROUND-REPEAT: no-repeat;
+	FONT-FAMILY: "Trebuchet MS", Tahoma, Arial;
+	HEIGHT: 26px;
+	padding-bottom: 2px;
+}
+.label {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bolder; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; MARGIN: 0px; COLOR: #333333; PADDING-TOP: 2px; FONT-FAMILY: Arial
+}
+.simpleLabel {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; MARGIN: 0px; COLOR: #333333; PADDING-TOP: 2px; FONT-FAMILY: Arial
+}	
+.icons {
+	BORDER-RIGHT: #dbdbdb 1px solid; BORDER-TOP: #dbdbdb 1px solid; BORDER-LEFT: #dbdbdb 1px solid; BORDER-BOTTOM: #dbdbdb 1px solid; BACKGROUND-COLOR: #fcfde8
+}
+#tabs4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; FLOAT: left; WIDTH: 100%; LINE-HEIGHT: normal; BORDER-BOTTOM: #6b78a9 1px solid; FONT-FAMILY: Tahoma, Arial, Verdana
+}
+#tabs4 UL {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 50px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 10px; FONT-FAMILY: Tahoma, Arial, Verdana; LIST-STYLE-TYPE: none
+}
+#tabs4 LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial, Verdana
+}
+#tabs4 A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 7px; FONT-SIZE: 9pt; BACKGROUND: url(../images/tableft4.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial, Verdana; TEXT-DECORATION: none
+}
+#tabs4 A SPAN {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 6px; FONT-SIZE: 9pt; BACKGROUND: url(../images/tabright4.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 4px; COLOR: #6b78a9; PADDING-TOP: 5px; FONT-FAMILY: Tahoma, Arial, Verdana
+}
+#tabs4 A SPAN {
+	FONT-SIZE: 9pt; FLOAT: none; FONT-FAMILY: Tahoma, Verdana, Arial
+}
+#tabs4 A:hover SPAN {
+	FONT-SIZE: 9pt; COLOR: #6b78a9; FONT-FAMILY: Tahoma, Arial, Verdana
+}
+#tabs4 A:hover {
+	BACKGROUND-POSITION: 0% -42px; FONT-SIZE: 9pt; FONT-FAMILY: Tahoma, Arial, Verdana
+}
+#tabs4 A:hover SPAN {
+	BACKGROUND-POSITION: 100% -42px; FONT-SIZE: 9pt; FONT-FAMILY: Tahoma, Arial, Verdana
+}
+#tabs4 #current A {
+	BACKGROUND-POSITION: 0% -42px
+}
+#tabs4 #current A SPAN {
+	BACKGROUND-POSITION: 100% -42px
+}
+.TabBorder {
+	BORDER-BOTTOM: #6b78a9 1px solid; HEIGHT: 2px
+}
+#datadark {
+	PADDING-LEFT: 6px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #ced3d6 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 19px; BACKGROUND-COLOR: #EBF4FE; TEXT-ALIGN: left
+}
+#datalight {
+	PADDING-LEFT: 6px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #ced3d6 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 19px; TEXT-ALIGN: left
+}
+.button {
+	BORDER-RIGHT: #7b9ebd 1px solid;
+	PADDING-RIGHT: 5px;
+	BACKGROUND-POSITION: left top;
+	BORDER-TOP: #7b9ebd 1px solid;
+	PADDING-LEFT: 5px;
+	FONT-SIZE: 11px;
+	BACKGROUND-IMAGE: url(../images/bgbtnmain.jpg);
+	BORDER-LEFT: #7b9ebd 1px solid;
+	CURSOR: hand;
+	BORDER-BOTTOM: #7b9ebd 1px solid;
+	BACKGROUND-REPEAT: repeat-x;
+	HEIGHT: 20px;
+	font-weight: bolder;
+	color: #FFFFFF;
+}
+#tabactive {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 7px; FONT-SIZE: 9pt; BACKGROUND: url(../images/tableft4.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial, Verdana; TEXT-DECORATION: none
+}
+#tabactive UL {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 50px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 10px; FONT-FAMILY: Tahoma, Arial, Verdana; LIST-STYLE-TYPE: none
+}
+#tabactive LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, Arial, Verdana
+}
+#tabactive SPAN {
+	PADDING-RIGHT: 15px; DISPLAY: block; PADDING-LEFT: 6px; FONT-SIZE: 9pt; BACKGROUND: url(../images/tabright4.gif) no-repeat 100% -42px; FLOAT: left; PADDING-BOTTOM: 4px; COLOR: #6b78a9; PADDING-TOP: 5px; FONT-FAMILY: Tahoma, Arial, Verdana
+}
+.SectionTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #CC3300; FONT-FAMILY: Tahoma, Arial, Verdana; HEIGHT: 20px
+}
+
+.bgtable{
+	background-color: #FFFFFF;
+
+}
+.textfield {
+	BORDER-RIGHT: #91bdd2 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #91bdd2 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; MARGIN: 1px; BORDER-LEFT: #91bdd2 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #91bdd2 1px solid; HEIGHT: 18px
+}
+.textarea {
+font-family: Arial;
+	border: 1px solid #C6E2FF;
+	font-size: 11px;
+	color: #666666;
+	padding-left: 2px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	margin: 1px;
+}
+.asterix {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #CC0000;
+}
+.tablerow {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 8pt;
+	color: #004B68
+}
+TABLE#print TR TD {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+    border-left: 1px solid #21618F;
+   
+    border-bottom: 1px solid #21618F;
+}
+TABLE#print TR TH {
+	font-size: 13px;
+	color: #004B68;
+	font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+	background : #00000;
+    border-left: 1px solid #21618F;
+    border-right: 1px solid #21618F;
+    border-top: 1px solid #21618F;
+    padding: 3px;
+}
+
+TABLE#list TR TD {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 8pt;
+	color: #004B68;
+    border-left: 1px solid #21618F;
+   
+    border-bottom: 1px solid #21618F;
+}
+TABLE#outline {
+	border-left: 2px solid #21618F;
+    border-right: 2px solid #21618F;
+    border-top: 2px solid #21618F;
+    border-bottom: 2px solid #21618F;
+}
+TABLE#list TR TH {
+	font-size: 11px;
+	color: #004B68;
+	font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+	background : #EEDA80;
+    border-left: 1px solid #21618F;
+    border-right: 1px solid #21618F;
+    border-top: 1px solid #21618F;
+    padding: 3px;
+}
+
+.successmessage
+{
+	font-family: Arial;
+	font-size: 16px;
+	color: #006699;
+	font-weight: bolder;
+	
+}
+.errmessage
+{
+	font-family: Arial;
+	font-size: 16px;
+	color: #CC0000;
+	font-weight: bolder;
+}
+.error-message { 
+  font-family: trebuchet MS, trebuchet, verdana, geneva, arial, helvetica, sans-serif;
+  font-size:11px;
+  color: #993333;
+  line-height:13px;
+  font-weight:bold;
+  margin-bottom: 10px;
+}
+.quotation{
+  font-size:13px;
+  color: black;
+}
